@@ -1,2 +1,4 @@
 # Mechanical-stress-prediction-using-convolutional-layers
-An artificial neural network that predicts boundary forces on a 2D cube, based on displacement and stress. Model trained by a preexisting FEM dataset
+Summary: An artificial neural network that predicts boundary forces on a 2D cube, based on displacement and stress. The model was trained by a preexisting FEM dataset.
+
+The goal of this project was to test if neural networks are sufficient enough to be used with or instead of classical FEM simulations. While these have long known issues, such as  massive computational cost and a loss of information and memory with the slightest change in the input parameters, neural networks can be trained on already existing data to reduce the time and energy load on future simulations. In this case a boundary value problem is looked on, using stress and displacement values on the edge of a 9 x 9 node cube. The goal is to predict the force distribution within the cube and compare these to the results of the FEM solution. Two different models have been built. For one a convolutional neural network, inspired by AlexNet, aswell as a custom built model with LSTM layers.
