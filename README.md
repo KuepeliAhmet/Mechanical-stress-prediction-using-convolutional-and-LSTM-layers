@@ -1,5 +1,5 @@
 # Mechanical-stress-prediction-using-convolutional-layers
-This project took place in the class "Computational Intelligence in Engineering" by Prof. Bernd Markert and assisted by Arnd Koeppe and Marion Mundt at the Institute of General Mechanics at RWTH Aachen University. The Code was written in a team consisting of Charles Vivek (Github: @Vivek9Chavan), Chi Shing Li (Github: @charles4444) and myself.
+This project took place in the class "Computational Intelligence in Engineering" by Prof. Bernd Markert and assisted by Arnd Koeppe and Marion Mundt at the Institute of General Mechanics at RWTH Aachen University. The Code was written in a team consisting of Vivek Chavan (Github: @Vivek9Chavan), Chi Shing Li (Github: @charles4444) and myself.
 
 
 Summary: An artificial neural network that predicts boundary forces on a 2D cube, based on displacement and stress. The model was trained by a preexisting FEM dataset.
